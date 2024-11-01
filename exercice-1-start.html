@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        margin: 0;
+        /* padding: 1em; */
+        padding-left: 10em;
+        padding-right: 10em;
+        background: pink;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 1em; /* Adds space between header, main, and footer */
+        height: 100vh;
+        background: greenyellow;
+      }
+
+      header,
+      main,
+      footer {
+        display: flex;
+        /* padding-left: 10em; */
+       
+        height: 100px;
+        background-color: grey;
+      }
+
+      main {
+        flex-grow: 1; 
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>Header</header>
+      <main>Main</main>
+      <footer>Footer</footer>
+    </div>
+  </body>
+</html>
